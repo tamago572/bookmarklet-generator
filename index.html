@@ -9,12 +9,14 @@
 </head>
 <body>
     <h1>Bookmarklet generator</h1>
-    <h2>JavaScriptを入力</h2>
-    <textarea id="input" cols="80" rows="20" placeholder="JavaScriptを入力" onkeyup="generateBookmark();"></textarea>
-    <h2>出力</h2>
-    <input type="button" value="Copy" onclick="copy()" id="btn">
-    <br>
-    <textarea id="output" cols="80" rows="20" placeholder="変換されたものが表示されます"></textarea>
+    <div class="container">
+        <h2>JavaScriptを入力</h2>
+        <textarea id="input" cols="80" rows="20" placeholder="JavaScriptを入力" onkeyup="generateBookmark();"></textarea>
+        <h2>出力</h2>
+        <input type="button" value="Copy" onclick="copy()" id="btn">
+        <br>
+        <textarea id="output" cols="80" rows="20" placeholder="変換されたものが表示されます"></textarea>
+    </div>
 
     <script src="./js/main.js"></script>
 </body>

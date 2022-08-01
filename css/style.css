@@ -1,7 +1,20 @@
 body{
     color: #222;
     font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
 }
+body h1{
+
+    margin-left: 20px;
+}
+.container{
+    text-align: left;
+    /* width: 70%; */
+    margin: 0 auto;
+    margin-left: 60px;
+    /* display: inline-block; */
+}
+
 textarea{
     font-family: monospace;
     border: solid gray;
